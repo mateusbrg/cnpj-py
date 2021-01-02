@@ -117,9 +117,10 @@ def printcnpj(req):
 
 def geracnpj():
     raiz = str(randint(00, 99))
-    nbase = str(randint(100000, 999999))
+    nbase_parte_um = str(randint(111, 999))
+    nbase_parte_dois = str(randint(111, 999))
     filial = '0001'
-    cnpj = f'{raiz}{nbase}{filial}00'  # 00 para ficar os 14 caracteres certinho
+    cnpj = f'{raiz}{nbase_parte_um}{nbase_parte_dois}{filial}00'  # 00 para ficar os 14 caracteres certinho
     cnpj = valida_cnpj(cnpj)
     cnpj = pontuacao_cnpj(cnpj)
     return cnpj
