@@ -26,7 +26,7 @@ Após a instalação da biblioteca, o programa pode ser executado pelo arquivo *
 
 ## Agradecimentos
 
-Gostaria de deixar meu agradecimento ao profº Otávio Miranda pelo excelente material do curso que está contribuindo muito ao meu aprendizado de programação. Muito Obrigado @luizomf !
+Gostaria de deixar meu agradecimento ao profº Otávio Miranda pelo excelente material do curso que está contribuindo muito ao meu aprendizado de programação. Muito Obrigado @luizomf!
 
 ### Fontes e links úteis
 
