@@ -116,7 +116,11 @@ def printcnpj(req):
 
 
 def geracnpj():
-    raiz = str(randint(00, 99))
+    # Se aqui o randint gerar um número menor que 10, o cálculo final dá erro, dando um CNPJ assim:
+    # 25.669.650/0014-2  - Sem o último dígito
+    # Para arrumar, mudei o parâmetro para gerar números maiores que 10.
+
+    raiz = str(randint(10, 99))
     nbase_parte_um = str(randint(111, 999))
     nbase_parte_dois = str(randint(111, 999))
     filial = '0001'
