@@ -115,7 +115,8 @@ def printcnpj(req):
     print(Fore.RESET)
 
 
-def geracnpj():
+def geracnpj():  # Lógica do geranpj() foi desenvolvida depois de ver a aula de gerador de cnpj do @luizomf
+    
     # Se aqui o randint gerar um número menor que 10, o cálculo final dá erro, dando um CNPJ assim:
     # 25.669.650/0014-2  - Sem o último dígito
     # Para arrumar, mudei o parâmetro para gerar números maiores que 10.
