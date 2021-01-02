@@ -19,16 +19,14 @@ Antes de qualquer coisa, é necessário ter o Python instalado na máquina. Cons
 
 Instale a biblioteca `requests` através do seguinte comando
 ```
-
 pip install requests
-
 ```
 
 Após a instalação da biblioteca, o programa pode ser executado pelo arquivo **main.py**
 
 ## Agradecimentos
 
-Gostaria de deixar meu agradecimento ao profº Otávio Miranda pelo excelente material do curso que está contribuindo muito ao meu aprendizado de programação. Muito Obrigado @luizomf!
+Gostaria de deixar meu agradecimento ao profº Otávio Miranda pelo excelente material do curso que está contribuindo muito ao meu aprendizado de programação. Muito Obrigado @luizomf !
 
 ### Fontes e links úteis
 
